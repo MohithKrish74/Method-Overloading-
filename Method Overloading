@@ -1,0 +1,39 @@
+package com.company;
+
+import com.sun.jdi.Value;
+import org.w3c.dom.ls.LSOutput;
+
+import java.security.spec.RSAOtherPrimeInfo;
+import java.util.*;
+class A
+{
+    public void add(int i,int j)
+    {
+        System.out.println("The Sum is : "+(i+j)) ;
+    }
+    public void add(double i,double j)                      //This is method overloading
+    {
+        System.out.println("The Sum is : "+(i+j)) ;
+    }
+}
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+     A obj = new A();
+     obj.add(3,4);
+     obj.add(2.0,3.0);
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
